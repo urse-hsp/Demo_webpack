@@ -7,7 +7,7 @@ const rules = {//模块，这里配置loader
 			},
 			//项目中引入less文件的转化器配置：style-loader  css-loader less-loader；另外需要安装less
 			{
-				test:/\.less$/,//匹配以.less结尾的文件
+				test:/\.less$/, //匹配以.less结尾的文件
 				use:['style-loader','css-loader','less-loader']
 			},
 			//项目中引入sass文件的转化器配置：style-loader  css-loader less-loader；另外需要安装node-sass sass fibers
@@ -22,7 +22,7 @@ const rules = {//模块，这里配置loader
 					{
 						loader:'url-loader',
 						options:{
-							limit:200//200:字节，当图片在200字节内的转化为base64编码，减少http请求，大于200字节的正常以图片形式加载即可
+							limit:200 //200:字节，当图片在200字节内的转化为base64编码，减少http请求，大于200字节的正常以图片形式加载即可
 						}
 					}
 				]
