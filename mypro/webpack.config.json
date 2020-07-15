@@ -1,0 +1,7 @@
+{
+        "host":"localhost",
+        "compress": true,
+        "port": 9001,
+        "open":true,
+        "hot":true
+}

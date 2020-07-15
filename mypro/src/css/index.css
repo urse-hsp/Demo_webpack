@@ -1,0 +1,9 @@
+.test{
+    width: 500px;
+    height: 500px;
+    background: url('../image/1.gif') no-repeat;
+    background-size: cover;
+}
+#root{
+    background: url('../image/book_no01.gif');
+}
